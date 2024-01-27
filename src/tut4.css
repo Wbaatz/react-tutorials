@@ -1,0 +1,138 @@
+#core-concepts ul{
+    list-style:none;
+    display: flex;
+    gap:2rem;
+    flex-wrap:wrap;
+    justify-content: center;
+}
+
+*{
+    box-sizing: border-box;
+}
+#core-concepts{
+   
+    padding:2rem;
+    border-radius:6px;
+    background-color: rgb(88, 119, 141);
+    box-shadow: 0 2px 8px rgba(red, green, blue, alpha);
+
+}
+#core-concepts li{
+ width:19rem;
+ padding: 24px 15px;
+ background-color: rgb(1, 62, 87);
+ text-align: center;
+
+
+border-radius: 20px 20px 4px 4px;
+box-shadow: -1px 1px 2px 0px rgba(10, 122, 251, 0.908);
+border:none;
+border-bottom-color:#48d9f3;
+transition: all 0.6s ease-out;
+transform:translateY(2%);
+
+animation-name: MoveAnim;
+animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+animation-iteration-count: 1;
+animation-duration: 1s;
+animation-fill-mode:inherit;
+animation-direction:normal;
+}
+
+
+
+
+@keyframes MoveAnim {
+0%{
+    opacity:0;
+transform: translateY(34%);
+
+}
+100%{
+    opacity:1;
+   
+    transform:translateY(2%);
+}
+
+}
+
+#core-concepts li:hover {
+    background-color: rgb(6, 152, 193);
+   box-shadow: -1px 1px 20px 0px rgba(0, 48, 104, 0.908);
+transform:translateY(-4%);
+   }
+
+
+
+
+
+
+
+
+
+
+
+
+#core-concepts li img{
+  width:16rem;
+  height: 15rem;
+  object-fit: cover;
+  border-radius: 20px 20px 0px 0px;
+  
+ 
+   
+   }
+
+
+    #core-concepts li:hover p {
+   font-size: 16.5px;
+    transition:1s;
+
+   }
+   
+    #core-concepts li:hover h1{
+   font-size: 30px;
+    transition:1s;
+
+   }
+
+
+   
+   
+
+   #core-concepts li h1{
+  margin:0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:rgb(213, 213, 213)
+   }
+
+   #core-concepts li p{
+    margin:10px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      color:rgb(213, 213, 213);
+        
+      
+     }
+
+     .button{
+        transition:1s;
+        background: rgb(21, 115, 221);
+        color: white;
+        border: none;
+        padding: 10px 25px;
+        border-radius: 10px;
+    }
+   
+   
+    #core-concepts li:hover button {
+        transition:1s;
+        font-weight: bold;
+        background: white;
+        color: rgb(13, 1, 1);
+    }
+    .button:hover{
+        transition:1s;
+        padding: 10px;
+        box-shadow: 0px 0px 10px 3px lightgray;
+        font-size:16px;
+    }

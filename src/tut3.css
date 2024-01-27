@@ -1,0 +1,51 @@
+div ul{
+    background-color:rgb(48, 110, 204);
+    color:rgb(255, 255, 255);
+
+    border-radius: 5px;
+   padding: 7px;
+margin:3px;
+    
+}
+
+#TaskList{
+
+   position:relative;
+   padding:2px;
+  
+    width:19rem;
+    text-align: center;
+    background-color: #084b72;
+  
+}
+
+#mytask{
+   
+    padding: 2px;
+    margin:6px;
+    position: relative;
+    left:6px;
+    font-size: 19px;
+    font-weight: 3px;
+    width:267px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+div button:hover{
+    background-color: #48d9f3;
+    color: #044856;
+}
+div button{
+    font:inherit;
+    
+    font-size:18px;
+    background-color: #282f33;
+    border:none;
+    border-bottom-color:#48d9f3;
+    color:#e0eff1;
+    margin: 14px;
+    border-radius: 4px 4px 0 0;
+    padding: 5px 15px;
+    cursor:pointer;
+    transition: all 0.2s ease-out;
+}
